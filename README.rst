@@ -8,6 +8,6 @@ README
 Features
 ==================
 
-bash: username (branch) pwd  --> No change  
-bash: username (branch \*) pwd --> There exists untracked file  
-bash: username (branch \+) pwd --> There exists staged files  
+* bash: username (branch) pwd  --> No change  
+* bash: username (branch \*) pwd --> There exists untracked file  
+* bash: username (branch \+) pwd --> There exists staged files  
