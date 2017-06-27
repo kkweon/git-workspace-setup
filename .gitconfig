@@ -5,7 +5,7 @@ name = KYUNG MO KWEON
 email = kkweon@gmail.com
 
 [core]
-editor = subl -w
+editor = vim 
 autocrlf = input
 
 [alias]
@@ -26,3 +26,9 @@ conflictstyle = diff3
 
 [mergetool]
 prompt = false
+
+[credential]
+helper = cache --timeout=3600
+
+[push]
+default = simple
